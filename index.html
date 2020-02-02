@@ -1,0 +1,48 @@
+<!Doctype html>
+
+<html>
+
+<head>
+    <title>
+        Songs
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function play(url) {
+            var audio = new Audio(url)
+            audio.play();
+        }
+    </script>
+    
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div>Song Name : Thanks!</div>
+            <div>Artist : Don Moen</div>
+            <div>Year : 1956</div>
+            <input type="button" value="Play" class="play-song"
+                   onClick="play('mp3/God is Good.mp3')"/>
+        </div>
+        <div class="card">
+            <div>Song Name : Thanks!</div>
+            <div>Artist : Don Moen</div>
+            <div>Year : 1956</div>
+            <input type="button" value="Play" class="play-song"
+                   onClick="play()"/>
+        </div>
+        <div class="card">
+            <div>Song Name : Thanks!</div>
+            <div>Artist : Don Moen</div>
+            <div>Year : 1956</div>
+            <input type="button" value="Play" class="play-song"
+                   onClick="play()"/>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+* {
+    padding : 0;
+    margin : 0;
+    
+    align-content: center;
+    text-align: justify;
+}
+
+body {
+   background-color: lightgoldenrodyellow
+}
+.container {
+    margin: 20px;
+    height: 100vh;
+}
+
+.myName {
+    font-size: 32px;
+    text-align: center;
+    font-family: cursive
+}
+
+.objective {
+    margin-top: 40px;
+}
+
+div {
+    margin-top: 10px
+}
+
+.card {
+    padding: 20px;
+    align-content: center;
+    background-color: aliceblue;
+}
+
+
+.play-song {
+    margin-top: 10px;
+}
